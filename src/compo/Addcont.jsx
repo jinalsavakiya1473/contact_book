@@ -27,7 +27,7 @@ const validate = Yup.object({
 function Addcont() {
 
   useEffect(() => {
-    localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3MTU3NDQyMDc5OTktNDEyNjg2ODEzIiwiaWF0IjoxNzE1NzQ0MjA3LCJleHAiOjE3MTU5MTcwMDd9.kVQwiFZU7Cm-1a0OEmaCVt2c6E982bpYk69c0_hyRro')
+    localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3MTU3ODUwMjIzNTItNjg3MDQ4MTI0IiwiaWF0IjoxNzE1Nzg1MDIyLCJleHAiOjE3MTU5NTc4MjJ9.WPgw-rCRbFUrw-M763tLjnroFE5MDKFOrrR0tLXwecE')
   }, []);
 
   const token = localStorage.getItem('token')
