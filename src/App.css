@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+h1,h2,h3,h4,h5,h6,a,p,ul,li{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none !important;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+li{
+  list-style: none;
+}
+ol{
+  font-size: 18px !important;
+}
+header ul li{
+  padding:0 15px ;
+  font-size: 18px;
+}
+header h2 a{
+  transition: .5s;
+  &:hover{
+    color: #1e03ce;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main{
+  padding: 50px;
+  height: auto;
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 15%);
+}
+input{
+  height: 50px;
+  font-size: 18px !important;
+}
+button,.btn-login{
+  background-color: #1e03ce;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  &:hover{
+    background-color: #1e03ce;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.course{
+  padding: 50px;
+  height: auto;
+  width: 60%;
+  border-radius: 20px;
+  box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 15%);
+}
+.con{
+  box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 10%);
+  padding: 10px 25px;
+  border-radius: 10px;
 }
